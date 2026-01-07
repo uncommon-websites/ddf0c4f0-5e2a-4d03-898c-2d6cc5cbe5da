@@ -1,65 +1,71 @@
 <script>
+  let heroImage = '/generated/image-modern-warehouse-interior-with-organized-1767814296376-0.webp';
 </script>
 
 <section class="pt-20 pb-16 text-center max-w-[1200px] mx-auto px-6">
   <h1 class="text-6xl font-bold tracking-tight text-gray-900 mb-6 leading-[1.1]">
-    Superpowers for<br>Hardware Teams
+    Smarter Inventory Decisions.<br>Built for Modern Retail.
   </h1>
   <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-    Config brings together engineering, operations, and manufacturing to make shipping high-quality hardware easier at scale.
+    Mercator Intelligence delivers AI-driven inventory decisioning that works within your real retail workflows—no more fragmented legacy tools.
   </p>
-  <button class="bg-[#2563EB] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold text-sm mb-20 cursor-pointer">
-    Get started
+  <button class="bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors font-semibold text-sm mb-20 cursor-pointer">
+    Request Demo
   </button>
 
-  <!-- Exploded View Image Placeholder -->
-  <div class="relative w-full aspect-[2/1] bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center border border-gray-100">
-    <!-- Abstract representation of exploded view -->
-    <div class="relative w-[600px] h-[400px] perspective-[1000px]">
-       <!-- Bottom Layer -->
-       <div class="absolute top-[60%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gray-200 rounded-2xl rotate-x-[60deg] rotate-z-[45deg] shadow-xl border border-gray-300"></div>
-       
-       <!-- Middle Layer (PCB) -->
-       <div class="absolute top-[50%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-56 h-56 bg-green-800/80 rounded-xl rotate-x-[60deg] rotate-z-[45deg] shadow-lg border border-green-700 backdrop-blur-sm flex items-center justify-center">
-          <div class="w-full h-full grid grid-cols-4 gap-2 p-4 opacity-50">
-             <div class="bg-yellow-400/50 rounded-sm col-span-2"></div>
-             <div class="bg-gray-300/50 rounded-full"></div>
-             <div class="bg-black/30 rounded-sm"></div>
-          </div>
-       </div>
-       
-       <!-- Top Layer (Casing) -->
-       <div class="absolute top-[40%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-white/90 rounded-2xl rotate-x-[60deg] rotate-z-[45deg] shadow-2xl border border-gray-200 backdrop-blur-sm"></div>
-       
-       <!-- Floating Elements -->
-       <div class="absolute top-[30%] left-[60%] w-8 h-8 bg-gray-400 rounded-full shadow-lg animate-bounce duration-[3000ms]"></div>
-       <div class="absolute top-[35%] left-[40%] w-4 h-12 bg-gray-300 rounded-full shadow-lg rotate-45"></div>
-       <div class="absolute top-[25%] left-[55%] w-2 h-20 bg-gray-300 rounded-full shadow-lg rotate-12"></div>
+  <!-- Hero Image -->
+  {#if heroImage}
+    <div class="relative w-full aspect-[2/1] bg-gray-50 rounded-xl overflow-hidden border border-gray-100">
+      <img src={heroImage} alt="Retail inventory management" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent pointer-events-none"></div>
     </div>
-    
-    <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent pointer-events-none"></div>
-  </div>
+  {:else}
+    <div class="relative w-full aspect-[2/1] bg-gray-50 rounded-xl overflow-hidden flex items-center justify-center border border-gray-100">
+      <!-- Abstract representation of inventory flow -->
+      <div class="relative w-full h-full flex items-center justify-center">
+        <div class="grid grid-cols-5 gap-4 p-8">
+          <!-- Warehouse boxes -->
+          <div class="w-24 h-24 bg-gray-200 rounded-lg shadow-md border border-gray-300 flex items-center justify-center">
+            <div class="text-3xl">📦</div>
+          </div>
+          <div class="w-24 h-24 bg-gray-300 rounded-lg shadow-md border border-gray-400 flex items-center justify-center">
+            <div class="text-3xl">📦</div>
+          </div>
+          <div class="w-24 h-24 bg-primary-400 rounded-lg shadow-lg border border-primary-500 flex items-center justify-center animate-pulse">
+            <div class="text-3xl">🤖</div>
+          </div>
+          <div class="w-24 h-24 bg-gray-300 rounded-lg shadow-md border border-gray-400 flex items-center justify-center">
+            <div class="text-3xl">📦</div>
+          </div>
+          <div class="w-24 h-24 bg-gray-200 rounded-lg shadow-md border border-gray-300 flex items-center justify-center">
+            <div class="text-3xl">📦</div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent pointer-events-none"></div>
+    </div>
+  {/if}
 
   <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 text-left">
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">01</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Mechanical</h3>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">AI-Driven Decisioning</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
-        Drawings and designs managed in a way that works the way you think, with automatically generated BOMs. Compatible with NX and SolidWorks.
+        Intelligent inventory recommendations powered by AI that understands your business context, demand patterns, and supply chain constraints.
       </p>
     </div>
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">02</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Electrical</h3>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Workflow-Native</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
-        Manage your whole team's schematics and layouts with ease, also with automatically generated BOMs. Compatible with Altium.
+        Built around real retail workflows, not forcing you to adapt to rigid legacy systems. Works the way your team actually operates.
       </p>
     </div>
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">03</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Firmware</h3>
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Modern Platform</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
-        Complete your BOM with firmware releases. Revision build assets manually and automatically with CI/CD Release integration.
+        Replace fragmented spreadsheets and outdated tools with a unified, AI-native execution layer for your entire supply chain.
       </p>
     </div>
   </div>

@@ -1,12 +1,12 @@
 <script>
-  let activeTab = 'Geometry';
-  const tabs = ['Geometry', 'Drawing', 'Layout', 'Schematic'];
+  let activeTab = 'Planning';
+  const tabs = ['Planning', 'Ordering', 'Receiving', 'Allocation'];
 </script>
 
 <section class="py-24 bg-white text-center">
   <div class="max-w-[1200px] mx-auto px-6">
     <h2 class="text-5xl font-bold mb-6 tracking-tight text-gray-900">
-      Magical Design<br>Reviews
+      Built Into Your<br>Actual Workflows
     </h2>
     
     <!-- Tabs -->
@@ -24,8 +24,8 @@
     </div>
 
     <p class="text-lg text-gray-600 mb-16 max-w-2xl mx-auto leading-relaxed">
-      Collaborate with your team on every revision of every part right in the browser.<br>
-      Add annotations, comments, and complete reviews.
+      Mercator Intelligence integrates directly into your planning, ordering, and allocation processes.<br>
+      Get AI recommendations exactly when and where you need them.
     </p>
 
     <!-- UI Mockup -->
@@ -33,33 +33,33 @@
       <!-- Toolbar -->
       <div class="h-12 border-b border-gray-200 flex items-center justify-between px-4 bg-white">
         <div class="flex items-center gap-4">
-           <span class="text-xs font-mono text-gray-500">318-2214</span>
+           <span class="text-xs font-mono text-gray-500">Purchase Order #PO-2847</span>
            <span class="text-gray-300">/</span>
            <span class="text-xs font-bold text-gray-900 flex items-center gap-2">
-             <span class="w-2 h-2 rounded-full bg-blue-500"></span>
-             Enclosure - Revision 4
+             <span class="w-2 h-2 rounded-full bg-primary-500"></span>
+             Winter Collection - Q1 2025
            </span>
         </div>
         
         <div class="flex items-center gap-6">
            <div class="flex items-center gap-4 text-xs font-medium text-gray-500">
-              <button class="hover:text-gray-900 flex items-center gap-1"><span>👁️</span> Preview</button>
-              <button class="text-red-500 flex items-center gap-1 border-b-2 border-red-500 pb-3 mt-3"><span>💬</span> Comments <span class="bg-red-100 text-red-600 px-1 rounded text-[10px]">3</span></button>
-              <button class="hover:text-gray-900 flex items-center gap-1"><span>clock</span> History</button>
+              <button class="hover:text-gray-900 flex items-center gap-1"><span>📊</span> Analytics</button>
+              <button class="text-primary-600 flex items-center gap-1 border-b-2 border-primary-500 pb-3 mt-3"><span>🤖</span> AI Insights <span class="bg-primary-100 text-primary-600 px-1 rounded text-[10px]">8</span></button>
+              <button class="hover:text-gray-900 flex items-center gap-1"><span>📋</span> History</button>
            </div>
         </div>
 
         <div class="flex items-center gap-2">
-           <button class="text-xs border border-gray-200 rounded px-2 py-1 flex items-center gap-1 text-gray-600">Views ▼</button>
-           <button class="text-xs border border-gray-200 rounded px-2 py-1 flex items-center gap-1 text-gray-600">100% Zoom ▼</button>
+           <button class="text-xs border border-gray-200 rounded px-2 py-1 flex items-center gap-1 text-gray-600">Filter ▼</button>
+           <button class="text-xs border border-gray-200 rounded px-2 py-1 flex items-center gap-1 text-gray-600">Export ▼</button>
         </div>
       </div>
 
       <div class="flex flex-1 overflow-hidden">
-        <!-- Left Sidebar (Tree) -->
+        <!-- Left Sidebar (Categories) -->
         <div class="w-64 bg-gray-50 border-r border-gray-200 flex flex-col text-xs">
            <div class="p-2 border-b border-gray-200 flex items-center justify-between">
-              <span class="font-bold text-gray-700">ASSEMBLY</span>
+              <span class="font-bold text-gray-700">CATEGORIES</span>
               <div class="flex gap-1 text-gray-400">
                  <span>🔍</span>
                  <span>⚙️</span>
@@ -67,132 +67,170 @@
            </div>
            <div class="flex-1 overflow-y-auto p-2 space-y-1">
               <div class="flex items-center gap-2 text-gray-600 pl-2">
-                 <span>▼</span> <span>Reference Stand</span>
+                 <span>▼</span> <span>All Products</span>
               </div>
               <div class="flex items-center gap-2 text-gray-600 pl-2">
-                 <span>▼</span> <span>Reference Background</span>
+                 <span>▼</span> <span>Apparel</span>
               </div>
-              <div class="flex items-center gap-2 font-medium text-gray-900 pl-2 bg-blue-50 rounded py-1">
-                 <span>▼</span> <span>Enclosure Assembly</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">R5</span>
+              <div class="flex items-center gap-2 font-medium text-gray-900 pl-2 bg-primary-50 rounded py-1">
+                 <span>▼</span> <span>Winter Collection</span> <span class="ml-auto text-[10px] bg-primary-200 px-1 rounded text-primary-700">142 SKUs</span>
               </div>
               <div class="pl-6 space-y-1">
                  <div class="flex items-center gap-2 text-gray-700">
-                    <span>👁️</span> <span>Bottom Enclosure</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">R4</span>
+                    <span>📦</span> <span>Jackets</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">48</span>
                  </div>
                  <div class="flex items-center gap-2 text-gray-700">
-                    <span>👁️</span> <span>Top Enclosure</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">R9</span>
+                    <span>📦</span> <span>Sweaters</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">36</span>
                  </div>
                  <div class="flex items-center gap-2 text-gray-500">
-                    <span>👁️</span> <span>92703A454-18_Stainless_st...</span>
+                    <span>📦</span> <span>Boots</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">28</span>
                  </div>
                  <div class="flex items-center gap-2 text-gray-500">
-                    <span>👁️</span> <span>92703A454-18_Stainless_st...</span>
-                 </div>
-                 <div class="flex items-center gap-2 text-gray-500">
-                    <span>👁️</span> <span>92703A454-18_Stainless_st...</span>
+                    <span>📦</span> <span>Accessories</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">30</span>
                  </div>
               </div>
               <div class="flex items-center gap-2 text-gray-600 pl-2 pt-2">
-                 <span>▶</span> <span>Keyboard Assembly</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">R2</span>
+                 <span>▶</span> <span>Spring Collection</span> <span class="ml-auto text-[10px] bg-gray-200 px-1 rounded text-gray-600">89</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-600 pl-2">
+                 <span>▶</span> <span>Footwear</span>
               </div>
            </div>
         </div>
 
-        <!-- Center (3D View) -->
-        <div class="flex-1 bg-gray-100 relative flex items-center justify-center overflow-hidden">
-           <!-- Placeholder for 3D model -->
-           <div class="w-[400px] h-[400px] bg-gray-300 rounded-xl shadow-inner relative transform rotate-12">
-              <div class="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-400 rounded-xl border border-gray-400"></div>
-              <!-- Simulated details -->
-              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 border-4 border-gray-500/20 rounded-full"></div>
-              <div class="absolute top-10 left-10 w-4 h-4 rounded-full bg-gray-500/30 shadow-inner"></div>
-              <div class="absolute top-10 right-10 w-4 h-4 rounded-full bg-gray-500/30 shadow-inner"></div>
-              <div class="absolute bottom-10 left-10 w-4 h-4 rounded-full bg-gray-500/30 shadow-inner"></div>
-              <div class="absolute bottom-10 right-10 w-4 h-4 rounded-full bg-gray-500/30 shadow-inner"></div>
-              
-              <!-- Annotation Pin -->
-              <div class="absolute top-1/3 left-1/3 w-8 h-8 bg-red-500 rounded-full border-2 border-white shadow-lg flex items-center justify-center text-white font-bold text-xs cursor-pointer z-10 hover:scale-110 transition-transform">
-                 1
-              </div>
+        <!-- Center (Workflow View) -->
+        <div class="flex-1 bg-white relative overflow-hidden">
+           <!-- Image with overlay -->
+           <div class="absolute inset-0">
+              <img src="/generated/image-retail-operations-manager-reviewing-data-1767814298621-1.webp" alt="Retail operations" class="w-full h-full object-cover opacity-20" />
            </div>
            
-           <!-- Overlay controls -->
-           <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-white rounded-full shadow-lg px-4 py-2 flex gap-4 text-gray-500">
-              <button>↺</button>
-              <button>↔</button>
-              <button>🔍</button>
+           <!-- Workflow cards overlay -->
+           <div class="relative z-10 p-8 flex flex-col gap-4 h-full justify-center">
+              <!-- Workflow Step 1 -->
+              <div class="bg-white rounded-lg shadow-lg p-4 border-l-4 border-primary-500 max-w-md">
+                 <div class="flex items-center gap-3 mb-2">
+                    <div class="w-8 h-8 rounded-full bg-primary-100 text-primary-600 flex items-center justify-center font-bold text-sm">1</div>
+                    <div>
+                       <div class="text-sm font-bold text-gray-900">Planning Phase</div>
+                       <div class="text-xs text-gray-500">AI analyzes demand patterns</div>
+                    </div>
+                 </div>
+                 <div class="text-xs text-gray-600 bg-primary-50 p-2 rounded">
+                    Forecast shows 18% increase in jacket demand for next quarter
+                 </div>
+              </div>
+
+              <!-- Workflow Step 2 -->
+              <div class="bg-white rounded-lg shadow-lg p-4 border-l-4 border-blue-500 max-w-md ml-12">
+                 <div class="flex items-center gap-3 mb-2">
+                    <div class="w-8 h-8 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center font-bold text-sm">2</div>
+                    <div>
+                       <div class="text-sm font-bold text-gray-900">Order Optimization</div>
+                       <div class="text-xs text-gray-500">Recommendations generated</div>
+                    </div>
+                 </div>
+                 <div class="text-xs text-gray-600 bg-blue-50 p-2 rounded">
+                    Suggested order: 2,450 units across 48 SKUs
+                 </div>
+              </div>
+
+              <!-- Workflow Step 3 -->
+              <div class="bg-white rounded-lg shadow-lg p-4 border-l-4 border-green-500 max-w-md ml-24">
+                 <div class="flex items-center gap-3 mb-2">
+                    <div class="w-8 h-8 rounded-full bg-green-100 text-green-600 flex items-center justify-center font-bold text-sm">3</div>
+                    <div>
+                       <div class="text-sm font-bold text-gray-900">Approval & Execution</div>
+                       <div class="text-xs text-gray-500">One-click to execute</div>
+                    </div>
+                 </div>
+                 <div class="text-xs text-gray-600 bg-green-50 p-2 rounded">
+                    Review and approve orders directly in your workflow
+                 </div>
+              </div>
            </div>
            
            <!-- User Avatars overlay -->
-           <div class="absolute top-4 left-1/2 transform -translate-x-1/2 bg-white/80 backdrop-blur rounded-full px-3 py-1 flex items-center gap-2 text-xs shadow-sm">
+           <div class="absolute top-4 left-1/2 transform -translate-x-1/2 bg-white/90 backdrop-blur rounded-full px-3 py-1 flex items-center gap-2 text-xs shadow-sm">
               <div class="flex -space-x-2">
+                 <div class="w-6 h-6 rounded-full bg-primary-500 border-2 border-white"></div>
                  <div class="w-6 h-6 rounded-full bg-blue-500 border-2 border-white"></div>
                  <div class="w-6 h-6 rounded-full bg-green-500 border-2 border-white"></div>
-                 <div class="w-6 h-6 rounded-full bg-yellow-500 border-2 border-white"></div>
               </div>
-              <span class="text-gray-600">3 currently viewing</span>
+              <span class="text-gray-600">Team collaborating</span>
            </div>
         </div>
 
-        <!-- Right Sidebar (Comments) -->
+        <!-- Right Sidebar (AI Insights) -->
         <div class="w-80 bg-white border-l border-gray-200 flex flex-col">
            <div class="p-4 border-b border-gray-100">
               <div class="flex items-center gap-2 mb-3">
-                 <div class="w-6 h-6 rounded-full bg-gray-200"></div>
-                 <input type="text" placeholder="Add a comment..." class="flex-1 bg-transparent text-sm focus:outline-none">
+                 <div class="w-6 h-6 rounded-full bg-primary-100 text-primary-600 flex items-center justify-center text-xs">🤖</div>
+                 <input type="text" placeholder="Ask AI about inventory..." class="flex-1 bg-transparent text-sm focus:outline-none">
               </div>
               <div class="flex justify-between items-center">
                  <div class="flex gap-2 text-gray-400">
-                    <button>📎</button>
-                    <button>@</button>
-                    <button>😊</button>
+                    <button>📊</button>
+                    <button>📈</button>
+                    <button>💡</button>
                  </div>
-                 <button class="bg-blue-500 text-white text-xs px-3 py-1.5 rounded font-medium">Post</button>
+                 <button class="bg-gray-900 text-white text-xs px-3 py-1.5 rounded font-medium">Ask</button>
               </div>
            </div>
            
            <div class="flex-1 overflow-y-auto p-4 space-y-6">
               <div class="flex items-center justify-between text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">
-                 <span>All Comments</span>
+                 <span>AI Insights</span>
                  <div class="flex gap-2">
                     <button>Filter</button>
                     <button>Sort</button>
                  </div>
               </div>
 
-              <!-- Comment 1 -->
+              <!-- Insight 1 -->
               <div class="flex gap-3">
-                 <div class="w-8 h-8 rounded-full bg-blue-100 flex-shrink-0"></div>
+                 <div class="w-8 h-8 rounded-full bg-primary-100 flex-shrink-0 flex items-center justify-center text-xs">🎯</div>
                  <div>
                     <div class="flex items-baseline gap-2 mb-1">
-                       <span class="text-xs font-bold text-gray-900">Cody Stronghold</span>
-                       <span class="text-[10px] text-gray-400">6h</span>
+                       <span class="text-xs font-bold text-gray-900">High Priority Alert</span>
+                       <span class="text-[10px] text-gray-400">2h</span>
                     </div>
-                    <div class="text-xs text-gray-600 bg-gray-50 p-2 rounded-lg border border-gray-100 mb-1">
-                       <span class="text-blue-500">@cody</span> Updated enclosure walls to 6mm, increased fillet radius to fit
+                    <div class="text-xs text-gray-600 bg-primary-50 p-2 rounded-lg border border-primary-100 mb-1">
+                       Winter jacket demand up 23% vs forecast. Recommend increasing order by 850 units to avoid stockout.
                     </div>
                     <div class="flex items-center gap-2 mt-1">
-                       <div class="w-4 h-4 rounded-full bg-gray-200"></div>
-                       <span class="text-[10px] text-gray-400">Add a reply...</span>
+                       <button class="text-[10px] text-primary-600 hover:underline">Apply recommendation</button>
                     </div>
                  </div>
               </div>
 
-              <!-- Comment 2 -->
-              <div class="flex gap-3 relative">
-                 <div class="absolute -left-2 top-2 w-1 h-12 bg-gray-100 rounded-full"></div> <!-- Thread line -->
-                 <div class="w-8 h-8 rounded-full bg-red-100 flex-shrink-0 z-10"></div>
+              <!-- Insight 2 -->
+              <div class="flex gap-3">
+                 <div class="w-8 h-8 rounded-full bg-yellow-100 flex-shrink-0 flex items-center justify-center text-xs">⚠️</div>
                  <div>
                     <div class="flex items-baseline gap-2 mb-1">
-                       <span class="text-xs font-bold text-gray-900">Cody Stronghold</span>
-                       <span class="text-[10px] text-gray-400">6h</span>
+                       <span class="text-xs font-bold text-gray-900">Supplier Update</span>
+                       <span class="text-[10px] text-gray-400">4h</span>
                     </div>
                     <div class="text-xs text-gray-600 mb-1">
-                       Can we increase the enclosure walls to 6mm thickness?
+                       Lead time for Supplier A extended by 2 weeks. Adjust safety stock for 12 affected SKUs.
                     </div>
                     <div class="flex items-center gap-2 mt-1">
-                       <div class="w-4 h-4 rounded-full bg-gray-200"></div>
-                       <span class="text-[10px] text-gray-400">Add a reply...</span>
+                       <button class="text-[10px] text-gray-600 hover:underline">View details</button>
+                    </div>
+                 </div>
+              </div>
+
+              <!-- Insight 3 -->
+              <div class="flex gap-3">
+                 <div class="w-8 h-8 rounded-full bg-green-100 flex-shrink-0 flex items-center justify-center text-xs">✓</div>
+                 <div>
+                    <div class="flex items-baseline gap-2 mb-1">
+                       <span class="text-xs font-bold text-gray-900">Optimization Complete</span>
+                       <span class="text-[10px] text-gray-400">1d</span>
+                    </div>
+                    <div class="text-xs text-gray-600 mb-1">
+                       Successfully optimized 48 SKUs. Projected inventory cost reduction: $12,400/month.
                     </div>
                  </div>
               </div>

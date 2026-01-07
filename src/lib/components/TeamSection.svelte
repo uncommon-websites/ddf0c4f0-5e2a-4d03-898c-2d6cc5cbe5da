@@ -5,86 +5,82 @@
   <div class="max-w-[1200px] mx-auto px-6">
     <div class="mb-16">
       <h2 class="text-5xl font-bold mb-6 tracking-tight text-gray-900 leading-tight">
-        Finally. Your Team, on<br>the Same Page
+        Unite Your Supply Chain<br>Team Around Data
       </h2>
       <p class="text-lg text-gray-600 max-w-2xl leading-relaxed">
-        Config brings together all your teams to speed up and simplify shipping high-quality hardware.
+        Mercator Intelligence brings together planning, procurement, and operations teams with shared visibility and AI-driven insights.
       </p>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <!-- Left Column Group -->
       <div class="lg:col-span-2 flex flex-col gap-6">
-        <!-- Builds and Procurement Card -->
-        <div class="bg-gradient-to-br from-[#4B88A2] to-[#3B7288] rounded-2xl p-8 text-white relative overflow-hidden h-[400px]">
+        <!-- Inventory Performance Card -->
+        <div class="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 text-white relative overflow-hidden h-[400px]">
            <div class="relative z-10">
-              <h3 class="text-xl font-bold mb-2">Builds and Procurement</h3>
-              <p class="text-blue-100 text-sm max-w-sm mb-8">
-                 Birds-eye view of your build progress without relying on out-of-date and error-prone spreadsheets.
+              <h3 class="text-xl font-bold mb-2">Inventory Performance Dashboard</h3>
+              <p class="text-gray-300 text-sm max-w-sm mb-8">
+                 Real-time visibility into inventory health across all locations, categories, and SKUs—no more outdated spreadsheets.
               </p>
               
               <!-- Chart UI -->
               <div class="bg-white rounded-xl shadow-lg p-4 text-gray-900 max-w-lg">
                  <div class="flex items-center gap-2 mb-4">
-                    <div class="h-2 w-full bg-blue-100 rounded-full overflow-hidden flex">
-                       <div class="w-[78%] bg-blue-500"></div>
-                       <div class="w-[12%] bg-orange-400"></div>
-                       <div class="w-[10%] bg-gray-200"></div>
+                    <div class="h-2 w-full bg-gray-100 rounded-full overflow-hidden flex">
+                       <div class="w-[72%] bg-green-500"></div>
+                       <div class="w-[18%] bg-yellow-400"></div>
+                       <div class="w-[10%] bg-red-500"></div>
                     </div>
-                    <span class="text-xs font-bold">317 total parts</span>
+                    <span class="text-xs font-bold">2,847 SKUs</span>
                  </div>
                  
                  <div class="space-y-3">
                     <div class="flex items-center justify-between text-xs">
                        <div class="flex items-center gap-2">
-                          <div class="w-2 h-2 rounded-full bg-blue-500"></div>
-                          <span>Not released</span>
-                       </div>
-                       <div class="flex items-center gap-8">
-                          <span>272</span>
-                          <span>78.11%</span>
-                          <div class="w-20 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                             <div class="w-[78%] h-full bg-blue-500"></div>
-                          </div>
-                       </div>
-                    </div>
-                    <div class="flex items-center justify-between text-xs">
-                       <div class="flex items-center gap-2">
-                          <div class="w-2 h-2 rounded-full bg-orange-400"></div>
-                          <span>Partially released</span>
-                       </div>
-                       <div class="flex items-center gap-8">
-                          <span>36</span>
-                          <span>12.4%</span>
-                          <div class="w-20 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                             <div class="w-[12%] h-full bg-orange-400"></div>
-                          </div>
-                       </div>
-                    </div>
-                    <div class="flex items-center justify-between text-xs">
-                       <div class="flex items-center gap-2">
                           <div class="w-2 h-2 rounded-full bg-green-500"></div>
-                          <span>Ready to order</span>
+                          <span>Optimal Stock</span>
                        </div>
                        <div class="flex items-center gap-8">
-                          <span>8</span>
-                          <span>3.28%</span>
+                          <span>2,050</span>
+                          <span>72.0%</span>
                           <div class="w-20 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                             <div class="w-[3%] h-full bg-green-500"></div>
+                             <div class="w-[72%] h-full bg-green-500"></div>
                           </div>
                        </div>
                     </div>
                     <div class="flex items-center justify-between text-xs">
                        <div class="flex items-center gap-2">
-                          <div class="w-2 h-2 rounded-full bg-gray-400"></div>
-                          <span>Ordered</span>
+                          <div class="w-2 h-2 rounded-full bg-yellow-400"></div>
+                          <span>Review Needed</span>
                        </div>
                        <div class="flex items-center gap-8">
-                          <span>1</span>
-                          <span>0.35%</span>
+                          <span>512</span>
+                          <span>18.0%</span>
                           <div class="w-20 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-                             <div class="w-[1%] h-full bg-gray-400"></div>
+                             <div class="w-[18%] h-full bg-yellow-400"></div>
                           </div>
+                       </div>
+                    </div>
+                    <div class="flex items-center justify-between text-xs">
+                       <div class="flex items-center gap-2">
+                          <div class="w-2 h-2 rounded-full bg-red-500"></div>
+                          <span>Action Required</span>
+                       </div>
+                       <div class="flex items-center gap-8">
+                          <span>285</span>
+                          <span>10.0%</span>
+                          <div class="w-20 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                             <div class="w-[10%] h-full bg-red-500"></div>
+                          </div>
+                       </div>
+                    </div>
+                    <div class="flex items-center justify-between text-xs border-t border-gray-100 pt-2 mt-2">
+                       <div class="flex items-center gap-2">
+                          <span class="font-bold">Inventory Health Score</span>
+                       </div>
+                       <div class="flex items-center gap-2">
+                          <span class="text-lg font-bold text-green-600">87%</span>
+                          <span class="text-green-600">↑ 5%</span>
                        </div>
                     </div>
                  </div>
@@ -94,45 +90,44 @@
 
         <!-- Bottom Row -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-           <!-- Smart Part Numbers -->
-           <div class="bg-[#1F2937] rounded-2xl p-8 text-white flex flex-col justify-between h-[280px]">
+           <!-- Predictive Analytics -->
+           <div class="bg-gray-900 rounded-2xl p-8 text-white flex flex-col justify-between h-[280px]">
               <div>
-                 <h3 class="text-lg font-bold mb-2">Smart Part Numbers</h3>
+                 <h3 class="text-lg font-bold mb-2">Predictive Analytics</h3>
                  <p class="text-gray-400 text-xs mb-4">
-                    Designate part type-specific families in highly customizable number schemes.
+                    AI forecasts demand up to 12 weeks ahead with category-specific models and seasonal adjustments.
                  </p>
               </div>
               <div class="text-center mt-auto">
                  <div class="text-5xl font-mono font-bold tracking-tighter flex items-center justify-center gap-2">
-                    <span class="text-gray-500">415</span>
-                    <span class="text-gray-600">-</span>
-                    <span class="text-white">1986</span>
+                    <span class="text-gray-500">94</span>
+                    <span class="text-gray-600">.</span>
+                    <span class="text-white">3%</span>
                  </div>
-                 <div class="flex justify-between px-8 mt-2 text-[10px] text-gray-500 uppercase tracking-widest">
-                    <span>Commodity Code</span>
-                    <span>Part Identifier</span>
+                 <div class="flex justify-center mt-2 text-[10px] text-gray-500 uppercase tracking-widest">
+                    <span>Forecast Accuracy</span>
                  </div>
               </div>
            </div>
 
-           <!-- One-Click Ownership -->
-           <div class="bg-[#1D4ED8] rounded-2xl p-8 text-white flex flex-col items-center text-center justify-center h-[280px]">
+           <!-- Collaborative Decisions -->
+           <div class="bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl p-8 text-white flex flex-col items-center text-center justify-center h-[280px]">
               <div class="bg-white text-gray-900 px-4 py-2 rounded-lg font-bold text-sm mb-6 shadow-lg flex items-center gap-2">
-                 <span>👤</span> Takeover as DRI
+                 <span>👥</span> Team Approval
               </div>
-              <h3 class="text-lg font-bold mb-2">One-Click Ownership</h3>
-              <p class="text-blue-200 text-xs">
-                 You don't have to give up accountability to make hand-off easier. Easily take ownership of any part.
+              <h3 class="text-lg font-bold mb-2">Collaborative Decisions</h3>
+              <p class="text-primary-100 text-xs">
+                 Get stakeholder input on major inventory decisions. Track approvals and maintain accountability across teams.
               </p>
            </div>
         </div>
       </div>
 
       <!-- Right Column -->
-      <div class="bg-gradient-to-br from-[#BE4B6A] to-[#9B3B55] rounded-2xl p-8 text-white relative overflow-hidden h-full min-h-[600px]">
-         <h3 class="text-xl font-bold mb-2">Capture Every Decision</h3>
-         <p class="text-pink-100 text-sm mb-8">
-            Fully reviewable revision and commit history for every part in your project. Never question which version or which part ever again.
+      <div class="bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 text-white relative overflow-hidden h-full min-h-[600px]">
+         <h3 class="text-xl font-bold mb-2">Complete Decision History</h3>
+         <p class="text-gray-300 text-sm mb-8">
+            Full audit trail of every inventory decision, AI recommendation, and action taken. Know exactly why each decision was made.
          </p>
          
          <!-- Timeline UI -->
@@ -142,77 +137,78 @@
             <div class="space-y-6 pt-4 pl-2">
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
-                  <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-blue-500"></div>
+                  <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-primary-500"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold">Revision 8</span>
-                     <span class="text-[10px] bg-blue-100 text-blue-600 px-1 rounded">In Review</span>
+                     <span class="text-xs font-bold">Order Adjustment</span>
+                     <span class="text-[10px] bg-primary-100 text-primary-600 px-1 rounded">Today</span>
                   </div>
-                  <p class="text-[10px] text-gray-500">Adjusted the mounting method from front screws to 4 bottom torx scre...</p>
+                  <p class="text-[10px] text-gray-500">Increased winter jacket order by 850 units based on AI forecast showing 23% demand increase...</p>
                </div>
 
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
                   <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-gray-300"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold text-gray-500">Revision 7</span>
+                     <span class="text-xs font-bold text-gray-500">Safety Stock Update</span>
                   </div>
-                  <p class="text-[10px] text-gray-500">The top on the sides adjusted as per Jane's suggestion for easier tool re...</p>
+                  <p class="text-[10px] text-gray-500">Adjusted safety stock for 12 SKUs due to supplier lead time extension...</p>
                </div>
                
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
                   <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-gray-300"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold text-gray-500">Revision 6</span>
+                     <span class="text-xs font-bold text-gray-500">Reorder Point Change</span>
                   </div>
-                  <p class="text-[10px] text-gray-500">Multiple big changes in this one. Going to be one of those things that n...</p>
+                  <p class="text-[10px] text-gray-500">Updated reorder points for Spring Collection based on historical sales patterns...</p>
                </div>
 
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
                   <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-green-500"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold text-gray-900">Revision 5</span>
-                     <span class="text-[10px] bg-green-100 text-green-600 px-1 rounded">Released</span>
+                     <span class="text-xs font-bold text-gray-900">Order Executed</span>
+                     <span class="text-[10px] bg-green-100 text-green-600 px-1 rounded">Completed</span>
                   </div>
-                  <p class="text-[10px] text-gray-500">The bottom machined out holes for silicone feet are sitting a little more snu...</p>
+                  <p class="text-[10px] text-gray-500">PO-2847 sent to supplier. 2,450 units across 48 SKUs. Expected delivery: Feb 15...</p>
                </div>
 
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
                   <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-gray-300"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold text-gray-500">Revision 4</span>
+                     <span class="text-xs font-bold text-gray-500">Forecast Updated</span>
                   </div>
-                  <p class="text-[10px] text-gray-500">reduced to match reduced to match reduced to match...</p>
+                  <p class="text-[10px] text-gray-500">AI model retrained with latest sales data. Accuracy improved to 94.3%...</p>
                </div>
                
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
                   <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-green-500"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold text-gray-900">Revision 3</span>
-                     <span class="text-[10px] bg-green-100 text-green-600 px-1 rounded">Released</span>
+                     <span class="text-xs font-bold text-gray-900">Optimization Run</span>
+                     <span class="text-[10px] bg-green-100 text-green-600 px-1 rounded">Success</span>
                   </div>
-                  <p class="text-[10px] text-gray-500">Minor adjustment for DVT: fillet radius reduced to match standard tool si...</p>
+                  <p class="text-[10px] text-gray-500">Multi-location optimization completed. Projected cost savings: $12.4K/month...</p>
                </div>
                
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
                   <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-gray-300"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold text-gray-500">Revision 2</span>
+                     <span class="text-xs font-bold text-gray-500">Allocation Adjusted</span>
                   </div>
-                  <p class="text-[10px] text-gray-500">First DVT release: candidate of bottom enclosure, pending checklist comple...</p>
+                  <p class="text-[10px] text-gray-500">Redistributed 320 units from Store A to Store B based on demand patterns...</p>
                </div>
                
                <!-- Timeline Item -->
                <div class="relative pl-6 border-l-2 border-gray-200">
-                  <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-red-500"></div>
+                  <div class="absolute -left-[5px] top-0 w-2 h-2 rounded-full bg-yellow-500"></div>
                   <div class="flex justify-between items-start mb-1">
-                     <span class="text-xs font-bold text-gray-500">Revision 1</span>
-                     <span class="text-[10px] bg-red-100 text-red-600 px-1 rounded">Blocked</span>
+                     <span class="text-xs font-bold text-gray-500">Alert Triggered</span>
+                     <span class="text-[10px] bg-yellow-100 text-yellow-600 px-1 rounded">Warning</span>
                   </div>
+                  <p class="text-[10px] text-gray-500">Low stock alert for SKU-8472. Recommended action: expedite order...</p>
                </div>
             </div>
             
