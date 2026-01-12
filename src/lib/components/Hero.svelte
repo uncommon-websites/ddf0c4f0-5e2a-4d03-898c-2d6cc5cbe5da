@@ -63,7 +63,7 @@
     </div>
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">03</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Modern Platform</h3>
+      <h3 class="text-xl font-bold text-green-600 mb-2">Modern Platform</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
         Replace fragmented spreadsheets and outdated tools with a unified, AI-native execution layer for your entire supply chain.
       </p>
