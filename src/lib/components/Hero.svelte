@@ -48,7 +48,7 @@
 
   <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-20 text-left">
     <div>
-      <div class="text-xs font-semibold text-gray-400 mb-2">01</div>
+      <div class="text-xs font-semibold text-gray-400 mb-2">10102</div>
       <h3 class="text-xl font-bold text-gray-900 mb-2">AI-Driven Decisioning</h3>
       <p class="text-sm text-gray-500 leading-relaxed">
         Intelligent inventory recommendations powered by AI that understands your business context, demand patterns, and supply chain constraints.
@@ -56,8 +56,8 @@
     </div>
     <div>
       <div class="text-xs font-semibold text-gray-400 mb-2">02</div>
-      <h3 class="text-xl font-bold text-gray-900 mb-2">Workflow-Native</h3>
-      <p class="text-sm text-gray-500 leading-relaxed">
+      <h3 class="text-xl font-bold text-gray-900 mb-2">Workflow-Native test</h3>
+      <p class="text-sm text-red-500 leading-relaxed">
         Built around real retail workflows, not forcing you to adapt to rigid legacy systems. Works the way your team actually operates.
       </p>
     </div>
